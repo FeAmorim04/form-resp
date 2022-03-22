@@ -1,0 +1,55 @@
+form label {
+    font-family: 'Open Sans';
+    font-size: 1.1em;
+}
+
+form label p {
+    display: inline-block;
+    margin: 0 0 .7em 0em;
+}
+
+
+input {
+    width: 14em;
+    height: 2.5em;
+    box-sizing: border-box;
+    margin-top: 0;
+    display: block;
+    border: none;
+    border-bottom: solid .01em black;
+    padding: 0em 0em 0em 2em;
+    font-size: 1.1em;
+    background: none;
+    outline: none;
+}
+
+input:first-of-type {
+    margin-bottom: .8em;
+}
+
+.icon {
+    display: inline;
+    color: red;
+    transform: scale(2);
+    position: relative;
+    left: -2.5em;
+    top: 2.3em;
+}
+
+.checkbox {
+    display: inline;
+    margin: 1em .2em 1em 0em;
+    height: .8em;
+    width: .8em;
+}
+
+.btn_entrar {
+    color: white;
+    margin-top: 1em;
+    border-radius: .5em;
+    text-align: center;
+    cursor: pointer;
+    text-indent: -40px;
+    width: 85%;
+    background-color: rgb(38, 39, 121);
+}
