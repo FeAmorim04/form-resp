@@ -1,0 +1,47 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(170,170,170,1) 45%, rgba(91,91,91,1) 100%);
+  background-size: cover;
+  border-top: solid 1px transparent;
+  font-family: 'Open Sans';
+}
+
+.logo-int {
+  width: 23em;
+  height: 5em;
+}
+
+.box-form {
+  width: 20em;
+  height: 30em;
+  border-top: solid 1px transparent;
+  margin: 1.5em auto;
+  background-color: white;
+  border-radius: 15px;
+  box-sizing: border-box;
+  padding-left: 2em;
+}
+
+.cadastro_icon {
+  margin: 0em .3em 0em 0em;
+}
+
+h1 {
+  font-family: 'Open Sans';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 1.8em;
+  margin: .8em 2.6em;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  font-weight: 700;
+  position: relative;
+  left: -1.5em;
+}
